@@ -25,4 +25,4 @@ on the following environments:
 - WalkerBulletEnv-v0 (walker)
 - antmaze-large-play-v2 (antmaze).
 
-For the first three environments, we use Soft-Actor Critic as our baseline policy optimizer. For antmaze, we use T3D+BC.
+For the first three environments, we use Soft-Actor Critic as our baseline policy optimizer. For antmaze, we use T3D+BC. See learners/gym_wrappers.py for wrappers to speed up learning for your own inverse reinforcement learning algorithms.
